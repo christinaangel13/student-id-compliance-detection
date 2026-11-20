@@ -10,6 +10,10 @@ Real-time ID card compliance monitoring using computer vision. A webcam feed is 
 - Saves a timestamped screenshot and a CSV log entry for every confirmed violation
 - Optional student identification using face recognition
 - Emails a grouped, per-student PDF report to a staff member when a session ends
+  
+## Screenshots
+![Compliant](sample_compliant.png)
+![No ID detected](sample_violation.png)
 
 ## Tech Stack
 
