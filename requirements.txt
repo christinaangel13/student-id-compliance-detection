@@ -1,0 +1,5 @@
+ultralytics>=8.2.0        # YOLOv8 for ID card / lanyard detection
+opencv-python>=4.9.0      # Webcam capture, face detection, drawing
+face_recognition>=1.3.0   # Optional: identify WHICH student was captured
+reportlab>=4.0.0          # Builds the PDF violation report emailed to teachers
+numpy>=1.26.0

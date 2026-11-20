@@ -1,0 +1,21 @@
+# YOLOv8 dataset config
+# Folder structure expected (created by Roboflow/LabelImg export):
+#
+# dataset/
+#   train/
+#     images/  *.jpg
+#     labels/  *.txt   (YOLO format: class x_center y_center width height, normalized 0-1)
+#   valid/
+#     images/
+#     labels/
+#
+# Label each ID card as class 0, each lanyard as class 1.
+# If a card is worn on a lanyard and both are visible, label BOTH boxes.
+
+path: ./dataset
+train: train/images
+val: valid/images
+
+names:
+  0: id_card
+  1: lanyard
